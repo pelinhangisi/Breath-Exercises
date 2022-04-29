@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #224941 url(images/photo.jpg) no-repeat center center/cover;
+    color: #fff;
+    font-family: 'Montserrat' , sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box1, .box2, .box3 {
+    background-color: #224941;
+    height: 100px;
+    width: 350px;
+    display: flex;
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid #224941;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 7px #224941, -8px -8px 7px #4ca493;
+    transition: box-shadow 0.5s;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+    box-shadow: 12px 12px 10px #224941, -12px -12px 10px #4ca493;
+}   
+
+.container, .container2, .container3 {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.container .heading {
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .heading {
+    font-size: 25px;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 .heading {
+    font-size: 22px;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
