@@ -44,12 +44,12 @@ body {
     border-radius: 15px 50px;
     align-items: center;
     justify-content: center;
-    box-shadow: 8px 8px 7px #224941, -8px -8px 7px #4ca493;
+    box-shadow: 4px 5px  #336d62;
     transition: box-shadow 0.5s;
 }
 
 .box1:hover, .box2:hover, .box3:hover {
-    box-shadow: 12px 12px 10px #224941, -12px -12px 10px #4ca493;
+    box-shadow: 7px 8px  #336d62;
 }   
 
 .container, .container2, .container3 {
