@@ -100,7 +100,7 @@ h1 {
     }
 }
 
-.container.grow {
+.container3.grow {
     animation: grow 4s linear forwards;
 }
 
@@ -113,7 +113,7 @@ h1 {
     }
 }
 
-.container.shrink {
+.container3.shrink {
     animation: shrink 2s linear forwards;
 }
 
